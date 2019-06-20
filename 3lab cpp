@@ -1,0 +1,73 @@
+// ConsoleApplication9.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+//
+
+#include "pch.h"
+#include <iostream>
+
+int main()
+{
+	char stroka[10] = "abcdefgh1";
+		std ::cout << stroka << "\n";
+
+  for (int i = 0; stroka[i] != '\0'; ++i)
+  {
+	  if (stroka[i] == 'a')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'b')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'c')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'd')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'e')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'f')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'g')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'h')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'i')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'j')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'k')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'l')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'm')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'n')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'o')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'p')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'q')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'r')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 's')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 't')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'u')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'v')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'w')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'x')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'y')
+		  stroka[i] = '  ';
+	  if (stroka[i] == 'z')
+		  stroka[i] = '  ';
+	 
+  }
+
+  std::cout << stroka << "\n";
+  system("pause");
+  return 0;
+
+}
